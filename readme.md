@@ -26,7 +26,7 @@
     object.
  * I assign my mouse variable to undefined which sets the cursor to only begin drawing once it's moved. If I had set
     it to null or defined a value for it, that would cause drawCircle to immediately begin and would simulate how a
-    paintbrush feature on a device using a mouse would look whereas I'm only wanting the brush to begin once the cursor
+    paintbrush feature on a device using a mouse would look whereas I'm wanting the brush to begin once the cursor
     begins to move. This is what I will be using to create the mouse interaction to draw the particles.
  * I've set both the X/Y speeds for the particles as positive. This will cause the particles to only move to the right
     from their start position.
